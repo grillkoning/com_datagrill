@@ -3,12 +3,17 @@
 define(DS, '/');
 
 ini_set('display_errors', "off");
-define('JPATH_BASE', $_SERVER['DOCUMENT_ROOT'] );
+
+$mypath=__DIR__  ;  
+$joomlapath = substr ($mypath,0,strlen($mypath)-30);
+define('JPATH_BASE', $joomlapath);
+
 require_once "xataface/public-api.php";
 require_once(JPATH_BASE.'/components/com_datagrill/helpers/datagrillhelper.php');
  
 $dgsetup['appId'] = htmlspecialchars($_GET["appId"]);
 $dgsetup['appPath'] = htmlspecialchars($_GET["appPath"]);
+
 
 	
 if ($dgsetup['appId']> '') {				// if configuration is given, 
@@ -21,7 +26,6 @@ if ($dgsetup['appId']> '') {				// if configuration is given,
 	}
 
 $conf=datagrillhelper::getconfig($conf);
-
 
 
 df_init(datagrillhelper::retrievepath().'/kickoff.php', "xataface",$conf)->display();

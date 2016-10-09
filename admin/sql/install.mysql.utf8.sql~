@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS `#__datagrillapplication` (
 	`asset_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT 'FK to the #__assets table.',
 	`catid` int(11) unsigned NOT NULL DEFAULT '0',
 	`title` VARCHAR(50) NOT NULL,
-	`server` VARCHAR(45) NOT NULL COMMENT 'Where your SQL database can be found. (Must be on the same server as your Joomla database)',
+	`server` VARCHAR(45) NOT NULL COMMENT 'Where your SQL database can be found',
 	`username` VARCHAR(45) NOT NULL COMMENT 'for the mySQL server',
 	`userpw` VARCHAR(45) NOT NULL COMMENT 'for your mySQL server',
 	`dbname` VARCHAR(45) NOT NULL,

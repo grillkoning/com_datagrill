@@ -7,8 +7,8 @@ CREATE TABLE IF NOT EXISTS `#__datagrillapplication` (
 	`username` VARCHAR(45) NOT NULL COMMENT 'for the mySQL server',
 	`userpw` VARCHAR(45) NOT NULL COMMENT 'for your mySQL server',
 	`dbname` VARCHAR(45) NOT NULL,
-	`apppath` VARCHAR(55),
-	`appurl` VARCHAR(55),
+	`apppath` VARCHAR(155),
+	`appurl` VARCHAR(155),
 	PRIMARY KEY (id)
 )
 CHARACTER SET utf8
