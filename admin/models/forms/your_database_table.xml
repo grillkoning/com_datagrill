@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset addfieldpath="/administrator/components/com_categories/models/fields">
+		<field
+			name="asset_id"
+			type="hidden"
+			filter="unset"
+		/>
+		<field 
+			name="id"
+			type="text"
+			label="COM_DATAGRILL_DATAGRILLTABLE_FIELD_ID_LABEL"
+			description="COM_DATAGRILL_DATAGRILLTABLE_FIELD_ID_DESC"
+			maxlength="10"
+			filter="INTEGER"
+			class="readonly"
+			readonly="true"
+		/>		
+		<field 
+			name="your_database_application"
+			type="your_database_application"
+			label="COM_DATAGRILL_DATAGRILLTABLE_FIELD_YOUR_DATABASE_APPLICATION_LABEL"
+			description="COM_DATAGRILL_DATAGRILLTABLE_FIELD_YOUR_DATABASE_APPLICATION_DESC"
+			default=""
+			required="1"
+		>
+			<option value=""></option>
+		</field>
+		<field
+			name="title"
+			label="COM_DATAGRILL_DATAGRILLTABLE_FIELD_TITLE_LABEL"
+			description="COM_DATAGRILL_DATAGRILLTABLE_FIELD_TITLE_DESC"
+			type="text"
+			maxlength="45"
+			class="input-xxlarge input-large-text"
+		>
+		</field>
+		<field
+			name="description"
+			label="COM_DATAGRILL_DATAGRILLTABLE_FIELD_DESCRIPTION_LABEL"
+			description="COM_DATAGRILL_DATAGRILLTABLE_FIELD_DESCRIPTION_DESC"
+			type="text"
+			maxlength="45"
+		>
+		</field>
+		<field
+			name="rules"
+			type="rules"
+			label="JFIELD_RULES_LABEL"
+			translate_label="false"
+			class="inputbox"
+			filter="rules"
+			component="com_datagrill"
+			section="your_database_table"
+			validate="rules"
+		/>
+	</fieldset>
+</form>

@@ -1,0 +1,27 @@
+CREATE TABLE IF NOT EXISTS `#__datagrillapplication` (
+	`id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+	`asset_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT 'FK to the #__assets table.',
+	`catid` int(11) unsigned NOT NULL DEFAULT '0',
+	`title` VARCHAR(50) NOT NULL,
+	`server` VARCHAR(45) NOT NULL COMMENT 'Where your SQL database can be found',
+	`username` VARCHAR(45) NOT NULL COMMENT 'for the mySQL server',
+	`userpw` VARCHAR(45) NOT NULL COMMENT 'for your mySQL server',
+	`dbname` VARCHAR(45) NOT NULL,
+	`apppath` VARCHAR(55),
+	`appurl` VARCHAR(55),
+	PRIMARY KEY (id)
+)
+CHARACTER SET utf8
+COLLATE utf8_general_ci;
+
+
+CREATE TABLE IF NOT EXISTS `#__datagrilltable` (
+	`id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+	`asset_id` int(11) unsigned NOT NULL DEFAULT '0' COMMENT 'FK to the #__assets table.',
+	`your_database_application` int(10) unsigned NOT NULL DEFAULT '0',
+	`title` VARCHAR(45) NOT NULL COMMENT 'As in your mySQL database',
+	`description` VARCHAR(45) NOT NULL,
+	PRIMARY KEY (id)
+)
+CHARACTER SET utf8
+COLLATE utf8_general_ci;

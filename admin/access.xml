@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<access component="com_mycomponent">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC"/>
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC"/>
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC"/>
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC"/>
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC"/>
+		<action name="datagrill.view" title="COM_DATAGRILL_ACCESS_VIEW" description="COM_DATAGRILL_ACCESS_VIEW_DESC" />
+		<action name="datagrill.link" title="COM_DATAGRILL_ACCESS_LINK" description="COM_DATAGRILL_ACCESS_LINK_DESC" />
+		<action name="datagrill.view in rss" title="COM_DATAGRILL_ACCESS_VIEW_RSS" description="COM_DATAGRILL_ACCESS_VIEW_RSS_DESC" />
+		<action name="datagrill.list" title="COM_DATAGRILL_ACCESS_LIST" description="COM_DATAGRILL_ACCESS_LIST_DESC" />
+		<action name="datagrill.calendar" title="COM_DATAGRILL_ACCESS_CALENDAR" description="COM_DATAGRILL_ACCESS_CALENDAR_DESC" />
+		<action name="datagrill.edit" title="COM_DATAGRILL_ACCESS_EDIT" description="COM_DATAGRILL_ACCESS_EDIT_DESC" />
+		<action name="datagrill.new" title="COM_DATAGRILL_ACCESS_NEW" description="COM_DATAGRILL_ACCESS_NEW_DESC" />
+		<action name="datagrill.select rows" title="COM_DATAGRILL_ACCESS_ROWS" description="COM_DATAGRILL_ACCESS_ROWS_DESC" />
+		<action name="datagrill.post" title="COM_DATAGRILL_ACCESS_POST" description="COM_DATAGRILL_ACCESS_POST_DESC" />
+		<action name="datagrill.copy" title="COM_DATAGRILL_ACCESS_COPY" description="COM_DATAGRILL_ACCESS_COPY_DESC" />
+		<action name="datagrill.update_set" title="COM_DATAGRILL_ACCESS_SET" description="COM_DATAGRILL_ACCESS_SET_DESC" />
+		<action name="datagrill.update_selected" title="COM_DATAGRILL_ACCESS_SEL" description="COM_DATAGRILL_ACCESS_SEL_DESC" />
+		<action name="datagrill.add new related record" title="COM_DATAGRILL_ACCESS_NEWRELATED" description="COM_DATAGRILL_ACCESS_NEWRELATED_DESC" />
+		<action name="datagrill.add existing related record" title="COM_DATAGRILL_ACCESS_ADDREL" description="COM_DATAGRILL_ACCESS_ADDREL_DESC" />
+		<action name="datagrill.delete" title="COM_DATAGRILL_ACCESS_DELETE" description="COM_DATAGRILL_ACCESS_DELETE_DESC" />
+		<action name="datagrill.delete selected" title="COM_DATAGRILL_ACCESS_DELSEL" description="COM_DATAGRILL_ACCESS_DELSEL_DESC" />
+		<action name="datagrill.delete found" title="COM_DATAGRILL_ACCESS_DELFOUND" description="COM_DATAGRILL_ACCESS_DELFOUND_DESC" />
+		<action name="datagrill.show all" title="COM_DATAGRILL_ACCESS_SHOW" description="COM_DATAGRILL_ACCESS_SHOW_DESC" />
+		<action name="datagrill.remove related record" title="COM_DATAGRILL_ACCESS_REMREL" description="COM_DATAGRILL_ACCESS_REMREL_DESC" />
+		<action name="datagrill.delete related record" title="COM_DATAGRILL_ACCESS_DELREL" description="COM_DATAGRILL_ACCESS_DELREL_DESC" />
+		<action name="datagrill.view related records" title="COM_DATAGRILL_ACCESS_VIEWREL" description="COM_DATAGRILL_ACCESS_VIEWREL_DESC" />
+		<action name="datagrill.update related records" title="COM_DATAGRILL_ACCESS_UPDREL" description="COM_DATAGRILL_ACCESS_UPDREL_DESC" />
+		<action name="datagrill.find related records" title="COM_DATAGRILL_ACCESS_FINDREL" description="COM_DATAGRILL_ACCESS_FINDREL_DESC" />
+		<action name="datagrill.edit related records" title="COM_DATAGRILL_ACCESS_EDITREL" description="COM_DATAGRILL_ACCESS_EDITREL_DESC" />
+		<action name="datagrill.link related records" title="COM_DATAGRILL_ACCESS_LINKREL" description="COM_DATAGRILL_ACCESS_LINKREL_DESC" />
+		<action name="datagrill.find" title="COM_DATAGRILL_ACCESS_FIND" description="COM_DATAGRILL_ACCESS_FIND_DESC" />
+		<action name="datagrill.import" title="COM_DATAGRILL_ACCESS_IMPORT" description="COM_DATAGRILL_ACCESS_IMPORT_DESC" />
+		<action name="datagrill.export_csv" title="COM_DATAGRILL_ACCESS_CSV" description="COM_DATAGRILL_ACCESS_CSV_DESC" />
+		<action name="datagrill.export_xml" title="COM_DATAGRILL_ACCESS_XML" description="COM_DATAGRILL_ACCESS_XML_DESC" />
+		<action name="datagrill.export_json" title="COM_DATAGRILL_ACCESS_JSON" description="COM_DATAGRILL_ACCESS_JSON_DESC" />
+		<action name="datagrill.translate" title="COM_DATAGRILL_ACCESS_TRANSLATE" description="COM_DATAGRILL_ACCESS_TRANSLATE_DESC" />
+		<action name="datagrill.history" title="COM_DATAGRILL_ACCESS_HISTORY" description="COM_DATAGRILL_ACCESS_HISTORY_DESC" />
+		<action name="datagrill.edit_history" title="COM_DATAGRILL_ACCESS_EDITH" description="COM_DATAGRILL_ACCESS_EDITH_DESC" />
+		<action name="datagrill.navigate" title="COM_DATAGRILL_ACCESS_NAVIGATE" description="COM_DATAGRILL_ACCESS_NAVIGATE_DESC" />
+		<action name="datagrill.reorder_related_records" title="COM_DATAGRILL_ACCESS_REORDER" description="COM_DATAGRILL_ACCESS_REORDER_DESC" />
+		<action name="datagrill.ajax_save" title="COM_DATAGRILL_ACCESS_AJAXSAVE" description="COM_DATAGRILL_ACCESS_AJAXSAVE_DESC" />
+		<action name="datagrill.ajax_load" title="COM_DATAGRILL_ACCESS_AJAXLOAD" description="COM_DATAGRILL_ACCESS_AJAXLOAD_DESC" />
+		<action name="datagrill.ajax_form" title="COM_DATAGRILL_ACCESS_AJAXFORM" description="COM_DATAGRILL_ACCESS_AJAXFORM_DESC" />
+		<action name="datagrill.find_list" title="COM_DATAGRILL_ACCESS_FINDLIST" description="COM_DATAGRILL_ACCESS_FINDLIST_DESC" />
+		<action name="datagrill.find_multi_table" title="COM_DATAGRILL_ACCESS_FINDMT" description="COM_DATAGRILL_ACCESS_FINDMT_DESC" />
+		<action name="datagrill.register" title="COM_DATAGRILL_ACCESS_REGISTER" description="COM_DATAGRILL_ACCESS_REGISTER_DESC" />
+		<action name="datagrill.rss" title="COM_DATAGRILL_ACCESS_RSS" description="COM_DATAGRILL_ACCESS_RSS_DESC" />
+		<action name="datagrill.xml_view" title="COM_DATAGRILL_ACCESS_XMLVIEW" description="COM_DATAGRILL_ACCESS_XMLVIEW_DESC" />
+		<action name="datagrill.view xml" title="COM_DATAGRILL_ACCESS_VIEWXML" description="COM_DATAGRILL_ACCESS_VIEWXML_DESC" />
+		<action name="datagrill.manage_output_cache" title="COM_DATAGRILL_ACCESS_CACHE" description="COM_DATAGRILL_ACCESS_CACHE_DESC" />
+		<action name="datagrill.clear views" title="COM_DATAGRILL_ACCESS_CLEARV" description="COM_DATAGRILL_ACCESS_CLEARV_DESC" />
+		<action name="datagrill.manage_migrate" title="COM_DATAGRILL_ACCESS_MIGRATE" description="COM_DATAGRILL_ACCESS_MIGRATE_DESC" />
+		<action name="datagrill.manage" title="COM_DATAGRILL_ACCESS_MANAGE" description="COM_DATAGRILL_ACCESS_MANAGE_DESC" />
+		<action name="datagrill.manage_build_index" title="COM_DATAGRILL_ACCESS_INDEX" description="COM_DATAGRILL_ACCESS_INDEX_DESC" />
+		<action name="datagrill.install" title="COM_DATAGRILL_ACCESS_INSTALL" description="COM_DATAGRILL_ACCESS_INSTALL_DESC" />
+		<action name="datagrill.expandable" title="COM_DATAGRILL_ACCESS_EXPANDABLE" description="COM_DATAGRILL_ACCESS_EXPANDABLE_DESC" />
+		<action name="datagrill.show hide columns" title="COM_DATAGRILL_ACCESS_SHOWHIDE" description="COM_DATAGRILL_ACCESS_SHOWHIDE_DESC" />
+
+	</section>
+	<section name="category">
+		<action name="core.create" title="JACTION_CREATE" description="COM_CATEGORIES_ACCESS_CREATE_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="COM_CATEGORIES_ACCESS_DELETE_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="COM_CATEGORIES_ACCESS_EDIT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="COM_CATEGORIES_ACCESS_EDITSTATE_DESC" />
+		<action name="core.edit.own" title="JACTION_EDITOWN" description="COM_CATEGORIES_ACCESS_EDITOWN_DESC" />
+		<action name="datagrill.view" title="COM_DATAGRILL_ACCESS_VIEW" description="COM_DATAGRILL_ACCESS_VIEW_DESC" />
+		<action name="datagrill.link" title="COM_DATAGRILL_ACCESS_LINK" description="COM_DATAGRILL_ACCESS_LINK_DESC" />
+		<action name="datagrill.view in rss" title="COM_DATAGRILL_ACCESS_VIEW_RSS" description="COM_DATAGRILL_ACCESS_VIEW_RSS_DESC" />
+		<action name="datagrill.list" title="COM_DATAGRILL_ACCESS_LIST" description="COM_DATAGRILL_ACCESS_LIST_DESC" />
+		<action name="datagrill.calendar" title="COM_DATAGRILL_ACCESS_CALENDAR" description="COM_DATAGRILL_ACCESS_CALENDAR_DESC" />
+		<action name="datagrill.edit" title="COM_DATAGRILL_ACCESS_EDIT" description="COM_DATAGRILL_ACCESS_EDIT_DESC" />
+		<action name="datagrill.new" title="COM_DATAGRILL_ACCESS_NEW" description="COM_DATAGRILL_ACCESS_NEW_DESC" />
+		<action name="datagrill.select rows" title="COM_DATAGRILL_ACCESS_ROWS" description="COM_DATAGRILL_ACCESS_ROWS_DESC" />
+		<action name="datagrill.post" title="COM_DATAGRILL_ACCESS_POST" description="COM_DATAGRILL_ACCESS_POST_DESC" />
+		<action name="datagrill.copy" title="COM_DATAGRILL_ACCESS_COPY" description="COM_DATAGRILL_ACCESS_COPY_DESC" />
+		<action name="datagrill.update_set" title="COM_DATAGRILL_ACCESS_SET" description="COM_DATAGRILL_ACCESS_SET_DESC" />
+		<action name="datagrill.update_selected" title="COM_DATAGRILL_ACCESS_SEL" description="COM_DATAGRILL_ACCESS_SEL_DESC" />
+		<action name="datagrill.add new related record" title="COM_DATAGRILL_ACCESS_NEWRELATED" description="COM_DATAGRILL_ACCESS_NEWRELATED_DESC" />
+		<action name="datagrill.add existing related record" title="COM_DATAGRILL_ACCESS_ADDREL" description="COM_DATAGRILL_ACCESS_ADDREL_DESC" />
+		<action name="datagrill.delete" title="COM_DATAGRILL_ACCESS_DELETE" description="COM_DATAGRILL_ACCESS_DELETE_DESC" />
+		<action name="datagrill.delete selected" title="COM_DATAGRILL_ACCESS_DELSEL" description="COM_DATAGRILL_ACCESS_DELSEL_DESC" />
+		<action name="datagrill.delete found" title="COM_DATAGRILL_ACCESS_DELFOUND" description="COM_DATAGRILL_ACCESS_DELFOUND_DESC" />
+		<action name="datagrill.show all" title="COM_DATAGRILL_ACCESS_SHOW" description="COM_DATAGRILL_ACCESS_SHOW_DESC" />
+		<action name="datagrill.remove related record" title="COM_DATAGRILL_ACCESS_REMREL" description="COM_DATAGRILL_ACCESS_REMREL_DESC" />
+		<action name="datagrill.delete related record" title="COM_DATAGRILL_ACCESS_DELREL" description="COM_DATAGRILL_ACCESS_DELREL_DESC" />
+		<action name="datagrill.view related records" title="COM_DATAGRILL_ACCESS_VIEWREL" description="COM_DATAGRILL_ACCESS_VIEWREL_DESC" />
+		<action name="datagrill.update related records" title="COM_DATAGRILL_ACCESS_UPDREL" description="COM_DATAGRILL_ACCESS_UPDREL_DESC" />
+		<action name="datagrill.find related records" title="COM_DATAGRILL_ACCESS_FINDREL" description="COM_DATAGRILL_ACCESS_FINDREL_DESC" />
+		<action name="datagrill.edit related records" title="COM_DATAGRILL_ACCESS_EDITREL" description="COM_DATAGRILL_ACCESS_EDITREL_DESC" />
+		<action name="datagrill.link related records" title="COM_DATAGRILL_ACCESS_LINKREL" description="COM_DATAGRILL_ACCESS_LINKREL_DESC" />
+		<action name="datagrill.find" title="COM_DATAGRILL_ACCESS_FIND" description="COM_DATAGRILL_ACCESS_FIND_DESC" />
+		<action name="datagrill.import" title="COM_DATAGRILL_ACCESS_IMPORT" description="COM_DATAGRILL_ACCESS_IMPORT_DESC" />
+		<action name="datagrill.export_csv" title="COM_DATAGRILL_ACCESS_CSV" description="COM_DATAGRILL_ACCESS_CSV_DESC" />
+		<action name="datagrill.export_xml" title="COM_DATAGRILL_ACCESS_XML" description="COM_DATAGRILL_ACCESS_XML_DESC" />
+		<action name="datagrill.export_json" title="COM_DATAGRILL_ACCESS_JSON" description="COM_DATAGRILL_ACCESS_JSON_DESC" />
+		<action name="datagrill.translate" title="COM_DATAGRILL_ACCESS_TRANSLATE" description="COM_DATAGRILL_ACCESS_TRANSLATE_DESC" />
+		<action name="datagrill.history" title="COM_DATAGRILL_ACCESS_HISTORY" description="COM_DATAGRILL_ACCESS_HISTORY_DESC" />
+		<action name="datagrill.edit_history" title="COM_DATAGRILL_ACCESS_EDITH" description="COM_DATAGRILL_ACCESS_EDITH_DESC" />
+		<action name="datagrill.navigate" title="COM_DATAGRILL_ACCESS_NAVIGATE" description="COM_DATAGRILL_ACCESS_NAVIGATE_DESC" />
+		<action name="datagrill.reorder_related_records" title="COM_DATAGRILL_ACCESS_REORDER" description="COM_DATAGRILL_ACCESS_REORDER_DESC" />
+		<action name="datagrill.ajax_save" title="COM_DATAGRILL_ACCESS_AJAXSAVE" description="COM_DATAGRILL_ACCESS_AJAXSAVE_DESC" />
+		<action name="datagrill.ajax_load" title="COM_DATAGRILL_ACCESS_AJAXLOAD" description="COM_DATAGRILL_ACCESS_AJAXLOAD_DESC" />
+		<action name="datagrill.ajax_form" title="COM_DATAGRILL_ACCESS_AJAXFORM" description="COM_DATAGRILL_ACCESS_AJAXFORM_DESC" />
+		<action name="datagrill.find_list" title="COM_DATAGRILL_ACCESS_FINDLIST" description="COM_DATAGRILL_ACCESS_FINDLIST_DESC" />
+		<action name="datagrill.find_multi_table" title="COM_DATAGRILL_ACCESS_FINDMT" description="COM_DATAGRILL_ACCESS_FINDMT_DESC" />
+		<action name="datagrill.register" title="COM_DATAGRILL_ACCESS_REGISTER" description="COM_DATAGRILL_ACCESS_REGISTER_DESC" />
+		<action name="datagrill.rss" title="COM_DATAGRILL_ACCESS_RSS" description="COM_DATAGRILL_ACCESS_RSS_DESC" />
+		<action name="datagrill.xml_view" title="COM_DATAGRILL_ACCESS_XMLVIEW" description="COM_DATAGRILL_ACCESS_XMLVIEW_DESC" />
+		<action name="datagrill.view xml" title="COM_DATAGRILL_ACCESS_VIEWXML" description="COM_DATAGRILL_ACCESS_VIEWXML_DESC" />
+		<action name="datagrill.manage_output_cache" title="COM_DATAGRILL_ACCESS_CACHE" description="COM_DATAGRILL_ACCESS_CACHE_DESC" />
+		<action name="datagrill.clear views" title="COM_DATAGRILL_ACCESS_CLEARV" description="COM_DATAGRILL_ACCESS_CLEARV_DESC" />
+		<action name="datagrill.manage_migrate" title="COM_DATAGRILL_ACCESS_MIGRATE" description="COM_DATAGRILL_ACCESS_MIGRATE_DESC" />
+		<action name="datagrill.manage" title="COM_DATAGRILL_ACCESS_MANAGE" description="COM_DATAGRILL_ACCESS_MANAGE_DESC" />
+		<action name="datagrill.manage_build_index" title="COM_DATAGRILL_ACCESS_INDEX" description="COM_DATAGRILL_ACCESS_INDEX_DESC" />
+		<action name="datagrill.install" title="COM_DATAGRILL_ACCESS_INSTALL" description="COM_DATAGRILL_ACCESS_INSTALL_DESC" />
+		<action name="datagrill.expandable" title="COM_DATAGRILL_ACCESS_EXPANDABLE" description="COM_DATAGRILL_ACCESS_EXPANDABLE_DESC" />
+		<action name="datagrill.show hide columns" title="COM_DATAGRILL_ACCESS_SHOWHIDE" description="COM_DATAGRILL_ACCESS_SHOWHIDE_DESC" />
+
+	</section>
+	<section name="your_database_application">
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="datagrill.view" title="COM_DATAGRILL_ACCESS_VIEW" description="COM_DATAGRILL_ACCESS_VIEW_DESC" />
+		<action name="datagrill.link" title="COM_DATAGRILL_ACCESS_LINK" description="COM_DATAGRILL_ACCESS_LINK_DESC" />
+		<action name="datagrill.view in rss" title="COM_DATAGRILL_ACCESS_VIEW_RSS" description="COM_DATAGRILL_ACCESS_VIEW_RSS_DESC" />
+		<action name="datagrill.list" title="COM_DATAGRILL_ACCESS_LIST" description="COM_DATAGRILL_ACCESS_LIST_DESC" />
+		<action name="datagrill.calendar" title="COM_DATAGRILL_ACCESS_CALENDAR" description="COM_DATAGRILL_ACCESS_CALENDAR_DESC" />
+		<action name="datagrill.edit" title="COM_DATAGRILL_ACCESS_EDIT" description="COM_DATAGRILL_ACCESS_EDIT_DESC" />
+		<action name="datagrill.new" title="COM_DATAGRILL_ACCESS_NEW" description="COM_DATAGRILL_ACCESS_NEW_DESC" />
+		<action name="datagrill.select rows" title="COM_DATAGRILL_ACCESS_ROWS" description="COM_DATAGRILL_ACCESS_ROWS_DESC" />
+		<action name="datagrill.post" title="COM_DATAGRILL_ACCESS_POST" description="COM_DATAGRILL_ACCESS_POST_DESC" />
+		<action name="datagrill.copy" title="COM_DATAGRILL_ACCESS_COPY" description="COM_DATAGRILL_ACCESS_COPY_DESC" />
+		<action name="datagrill.update_set" title="COM_DATAGRILL_ACCESS_SET" description="COM_DATAGRILL_ACCESS_SET_DESC" />
+		<action name="datagrill.update_selected" title="COM_DATAGRILL_ACCESS_SEL" description="COM_DATAGRILL_ACCESS_SEL_DESC" />
+		<action name="datagrill.add new related record" title="COM_DATAGRILL_ACCESS_NEWRELATED" description="COM_DATAGRILL_ACCESS_NEWRELATED_DESC" />
+		<action name="datagrill.add existing related record" title="COM_DATAGRILL_ACCESS_ADDREL" description="COM_DATAGRILL_ACCESS_ADDREL_DESC" />
+		<action name="datagrill.delete" title="COM_DATAGRILL_ACCESS_DELETE" description="COM_DATAGRILL_ACCESS_DELETE_DESC" />
+		<action name="datagrill.delete selected" title="COM_DATAGRILL_ACCESS_DELSEL" description="COM_DATAGRILL_ACCESS_DELSEL_DESC" />
+		<action name="datagrill.delete found" title="COM_DATAGRILL_ACCESS_DELFOUND" description="COM_DATAGRILL_ACCESS_DELFOUND_DESC" />
+		<action name="datagrill.show all" title="COM_DATAGRILL_ACCESS_SHOW" description="COM_DATAGRILL_ACCESS_SHOW_DESC" />
+		<action name="datagrill.remove related record" title="COM_DATAGRILL_ACCESS_REMREL" description="COM_DATAGRILL_ACCESS_REMREL_DESC" />
+		<action name="datagrill.delete related record" title="COM_DATAGRILL_ACCESS_DELREL" description="COM_DATAGRILL_ACCESS_DELREL_DESC" />
+		<action name="datagrill.view related records" title="COM_DATAGRILL_ACCESS_VIEWREL" description="COM_DATAGRILL_ACCESS_VIEWREL_DESC" />
+		<action name="datagrill.update related records" title="COM_DATAGRILL_ACCESS_UPDREL" description="COM_DATAGRILL_ACCESS_UPDREL_DESC" />
+		<action name="datagrill.find related records" title="COM_DATAGRILL_ACCESS_FINDREL" description="COM_DATAGRILL_ACCESS_FINDREL_DESC" />
+		<action name="datagrill.edit related records" title="COM_DATAGRILL_ACCESS_EDITREL" description="COM_DATAGRILL_ACCESS_EDITREL_DESC" />
+		<action name="datagrill.link related records" title="COM_DATAGRILL_ACCESS_LINKREL" description="COM_DATAGRILL_ACCESS_LINKREL_DESC" />
+		<action name="datagrill.find" title="COM_DATAGRILL_ACCESS_FIND" description="COM_DATAGRILL_ACCESS_FIND_DESC" />
+		<action name="datagrill.import" title="COM_DATAGRILL_ACCESS_IMPORT" description="COM_DATAGRILL_ACCESS_IMPORT_DESC" />
+		<action name="datagrill.export_csv" title="COM_DATAGRILL_ACCESS_CSV" description="COM_DATAGRILL_ACCESS_CSV_DESC" />
+		<action name="datagrill.export_xml" title="COM_DATAGRILL_ACCESS_XML" description="COM_DATAGRILL_ACCESS_XML_DESC" />
+		<action name="datagrill.export_json" title="COM_DATAGRILL_ACCESS_JSON" description="COM_DATAGRILL_ACCESS_JSON_DESC" />
+		<action name="datagrill.translate" title="COM_DATAGRILL_ACCESS_TRANSLATE" description="COM_DATAGRILL_ACCESS_TRANSLATE_DESC" />
+		<action name="datagrill.history" title="COM_DATAGRILL_ACCESS_HISTORY" description="COM_DATAGRILL_ACCESS_HISTORY_DESC" />
+		<action name="datagrill.edit_history" title="COM_DATAGRILL_ACCESS_EDITH" description="COM_DATAGRILL_ACCESS_EDITH_DESC" />
+		<action name="datagrill.navigate" title="COM_DATAGRILL_ACCESS_NAVIGATE" description="COM_DATAGRILL_ACCESS_NAVIGATE_DESC" />
+		<action name="datagrill.reorder_related_records" title="COM_DATAGRILL_ACCESS_REORDER" description="COM_DATAGRILL_ACCESS_REORDER_DESC" />
+		<action name="datagrill.ajax_save" title="COM_DATAGRILL_ACCESS_AJAXSAVE" description="COM_DATAGRILL_ACCESS_AJAXSAVE_DESC" />
+		<action name="datagrill.ajax_load" title="COM_DATAGRILL_ACCESS_AJAXLOAD" description="COM_DATAGRILL_ACCESS_AJAXLOAD_DESC" />
+		<action name="datagrill.ajax_form" title="COM_DATAGRILL_ACCESS_AJAXFORM" description="COM_DATAGRILL_ACCESS_AJAXFORM_DESC" />
+		<action name="datagrill.find_list" title="COM_DATAGRILL_ACCESS_FINDLIST" description="COM_DATAGRILL_ACCESS_FINDLIST_DESC" />
+		<action name="datagrill.find_multi_table" title="COM_DATAGRILL_ACCESS_FINDMT" description="COM_DATAGRILL_ACCESS_FINDMT_DESC" />
+		<action name="datagrill.register" title="COM_DATAGRILL_ACCESS_REGISTER" description="COM_DATAGRILL_ACCESS_REGISTER_DESC" />
+		<action name="datagrill.rss" title="COM_DATAGRILL_ACCESS_RSS" description="COM_DATAGRILL_ACCESS_RSS_DESC" />
+		<action name="datagrill.xml_view" title="COM_DATAGRILL_ACCESS_XMLVIEW" description="COM_DATAGRILL_ACCESS_XMLVIEW_DESC" />
+		<action name="datagrill.view xml" title="COM_DATAGRILL_ACCESS_VIEWXML" description="COM_DATAGRILL_ACCESS_VIEWXML_DESC" />
+		<action name="datagrill.manage_output_cache" title="COM_DATAGRILL_ACCESS_CACHE" description="COM_DATAGRILL_ACCESS_CACHE_DESC" />
+		<action name="datagrill.clear views" title="COM_DATAGRILL_ACCESS_CLEARV" description="COM_DATAGRILL_ACCESS_CLEARV_DESC" />
+		<action name="datagrill.manage_migrate" title="COM_DATAGRILL_ACCESS_MIGRATE" description="COM_DATAGRILL_ACCESS_MIGRATE_DESC" />
+		<action name="datagrill.manage" title="COM_DATAGRILL_ACCESS_MANAGE" description="COM_DATAGRILL_ACCESS_MANAGE_DESC" />
+		<action name="datagrill.manage_build_index" title="COM_DATAGRILL_ACCESS_INDEX" description="COM_DATAGRILL_ACCESS_INDEX_DESC" />
+		<action name="datagrill.install" title="COM_DATAGRILL_ACCESS_INSTALL" description="COM_DATAGRILL_ACCESS_INSTALL_DESC" />
+		<action name="datagrill.expandable" title="COM_DATAGRILL_ACCESS_EXPANDABLE" description="COM_DATAGRILL_ACCESS_EXPANDABLE_DESC" />
+		<action name="datagrill.show hide columns" title="COM_DATAGRILL_ACCESS_SHOWHIDE" description="COM_DATAGRILL_ACCESS_SHOWHIDE_DESC" />
+
+	</section>
+	<section name="your_database_table">
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="datagrill.view" title="COM_DATAGRILL_ACCESS_VIEW" description="COM_DATAGRILL_ACCESS_VIEW_DESC" />
+		<action name="datagrill.link" title="COM_DATAGRILL_ACCESS_LINK" description="COM_DATAGRILL_ACCESS_LINK_DESC" />
+		<action name="datagrill.view in rss" title="COM_DATAGRILL_ACCESS_VIEW_RSS" description="COM_DATAGRILL_ACCESS_VIEW_RSS_DESC" />
+		<action name="datagrill.list" title="COM_DATAGRILL_ACCESS_LIST" description="COM_DATAGRILL_ACCESS_LIST_DESC" />
+		<action name="datagrill.calendar" title="COM_DATAGRILL_ACCESS_CALENDAR" description="COM_DATAGRILL_ACCESS_CALENDAR_DESC" />
+		<action name="datagrill.edit" title="COM_DATAGRILL_ACCESS_EDIT" description="COM_DATAGRILL_ACCESS_EDIT_DESC" />
+		<action name="datagrill.new" title="COM_DATAGRILL_ACCESS_NEW" description="COM_DATAGRILL_ACCESS_NEW_DESC" />
+		<action name="datagrill.select rows" title="COM_DATAGRILL_ACCESS_ROWS" description="COM_DATAGRILL_ACCESS_ROWS_DESC" />
+		<action name="datagrill.post" title="COM_DATAGRILL_ACCESS_POST" description="COM_DATAGRILL_ACCESS_POST_DESC" />
+		<action name="datagrill.copy" title="COM_DATAGRILL_ACCESS_COPY" description="COM_DATAGRILL_ACCESS_COPY_DESC" />
+		<action name="datagrill.update_set" title="COM_DATAGRILL_ACCESS_SET" description="COM_DATAGRILL_ACCESS_SET_DESC" />
+		<action name="datagrill.update_selected" title="COM_DATAGRILL_ACCESS_SEL" description="COM_DATAGRILL_ACCESS_SEL_DESC" />
+		<action name="datagrill.add new related record" title="COM_DATAGRILL_ACCESS_NEWRELATED" description="COM_DATAGRILL_ACCESS_NEWRELATED_DESC" />
+		<action name="datagrill.add existing related record" title="COM_DATAGRILL_ACCESS_ADDREL" description="COM_DATAGRILL_ACCESS_ADDREL_DESC" />
+		<action name="datagrill.delete" title="COM_DATAGRILL_ACCESS_DELETE" description="COM_DATAGRILL_ACCESS_DELETE_DESC" />
+		<action name="datagrill.delete selected" title="COM_DATAGRILL_ACCESS_DELSEL" description="COM_DATAGRILL_ACCESS_DELSEL_DESC" />
+		<action name="datagrill.delete found" title="COM_DATAGRILL_ACCESS_DELFOUND" description="COM_DATAGRILL_ACCESS_DELFOUND_DESC" />
+		<action name="datagrill.show all" title="COM_DATAGRILL_ACCESS_SHOW" description="COM_DATAGRILL_ACCESS_SHOW_DESC" />
+		<action name="datagrill.remove related record" title="COM_DATAGRILL_ACCESS_REMREL" description="COM_DATAGRILL_ACCESS_REMREL_DESC" />
+		<action name="datagrill.delete related record" title="COM_DATAGRILL_ACCESS_DELREL" description="COM_DATAGRILL_ACCESS_DELREL_DESC" />
+		<action name="datagrill.view related records" title="COM_DATAGRILL_ACCESS_VIEWREL" description="COM_DATAGRILL_ACCESS_VIEWREL_DESC" />
+		<action name="datagrill.update related records" title="COM_DATAGRILL_ACCESS_UPDREL" description="COM_DATAGRILL_ACCESS_UPDREL_DESC" />
+		<action name="datagrill.find related records" title="COM_DATAGRILL_ACCESS_FINDREL" description="COM_DATAGRILL_ACCESS_FINDREL_DESC" />
+		<action name="datagrill.edit related records" title="COM_DATAGRILL_ACCESS_EDITREL" description="COM_DATAGRILL_ACCESS_EDITREL_DESC" />
+		<action name="datagrill.link related records" title="COM_DATAGRILL_ACCESS_LINKREL" description="COM_DATAGRILL_ACCESS_LINKREL_DESC" />
+		<action name="datagrill.find" title="COM_DATAGRILL_ACCESS_FIND" description="COM_DATAGRILL_ACCESS_FIND_DESC" />
+		<action name="datagrill.import" title="COM_DATAGRILL_ACCESS_IMPORT" description="COM_DATAGRILL_ACCESS_IMPORT_DESC" />
+		<action name="datagrill.export_csv" title="COM_DATAGRILL_ACCESS_CSV" description="COM_DATAGRILL_ACCESS_CSV_DESC" />
+		<action name="datagrill.export_xml" title="COM_DATAGRILL_ACCESS_XML" description="COM_DATAGRILL_ACCESS_XML_DESC" />
+		<action name="datagrill.export_json" title="COM_DATAGRILL_ACCESS_JSON" description="COM_DATAGRILL_ACCESS_JSON_DESC" />
+		<action name="datagrill.translate" title="COM_DATAGRILL_ACCESS_TRANSLATE" description="COM_DATAGRILL_ACCESS_TRANSLATE_DESC" />
+		<action name="datagrill.history" title="COM_DATAGRILL_ACCESS_HISTORY" description="COM_DATAGRILL_ACCESS_HISTORY_DESC" />
+		<action name="datagrill.edit_history" title="COM_DATAGRILL_ACCESS_EDITH" description="COM_DATAGRILL_ACCESS_EDITH_DESC" />
+		<action name="datagrill.navigate" title="COM_DATAGRILL_ACCESS_NAVIGATE" description="COM_DATAGRILL_ACCESS_NAVIGATE_DESC" />
+		<action name="datagrill.reorder_related_records" title="COM_DATAGRILL_ACCESS_REORDER" description="COM_DATAGRILL_ACCESS_REORDER_DESC" />
+		<action name="datagrill.ajax_save" title="COM_DATAGRILL_ACCESS_AJAXSAVE" description="COM_DATAGRILL_ACCESS_AJAXSAVE_DESC" />
+		<action name="datagrill.ajax_load" title="COM_DATAGRILL_ACCESS_AJAXLOAD" description="COM_DATAGRILL_ACCESS_AJAXLOAD_DESC" />
+		<action name="datagrill.ajax_form" title="COM_DATAGRILL_ACCESS_AJAXFORM" description="COM_DATAGRILL_ACCESS_AJAXFORM_DESC" />
+		<action name="datagrill.find_list" title="COM_DATAGRILL_ACCESS_FINDLIST" description="COM_DATAGRILL_ACCESS_FINDLIST_DESC" />
+		<action name="datagrill.find_multi_table" title="COM_DATAGRILL_ACCESS_FINDMT" description="COM_DATAGRILL_ACCESS_FINDMT_DESC" />
+		<action name="datagrill.register" title="COM_DATAGRILL_ACCESS_REGISTER" description="COM_DATAGRILL_ACCESS_REGISTER_DESC" />
+		<action name="datagrill.rss" title="COM_DATAGRILL_ACCESS_RSS" description="COM_DATAGRILL_ACCESS_RSS_DESC" />
+		<action name="datagrill.xml_view" title="COM_DATAGRILL_ACCESS_XMLVIEW" description="COM_DATAGRILL_ACCESS_XMLVIEW_DESC" />
+		<action name="datagrill.view xml" title="COM_DATAGRILL_ACCESS_VIEWXML" description="COM_DATAGRILL_ACCESS_VIEWXML_DESC" />
+		<action name="datagrill.manage_output_cache" title="COM_DATAGRILL_ACCESS_CACHE" description="COM_DATAGRILL_ACCESS_CACHE_DESC" />
+		<action name="datagrill.clear views" title="COM_DATAGRILL_ACCESS_CLEARV" description="COM_DATAGRILL_ACCESS_CLEARV_DESC" />
+		<action name="datagrill.manage_migrate" title="COM_DATAGRILL_ACCESS_MIGRATE" description="COM_DATAGRILL_ACCESS_MIGRATE_DESC" />
+		<action name="datagrill.manage" title="COM_DATAGRILL_ACCESS_MANAGE" description="COM_DATAGRILL_ACCESS_MANAGE_DESC" />
+		<action name="datagrill.manage_build_index" title="COM_DATAGRILL_ACCESS_INDEX" description="COM_DATAGRILL_ACCESS_INDEX_DESC" />
+		<action name="datagrill.install" title="COM_DATAGRILL_ACCESS_INSTALL" description="COM_DATAGRILL_ACCESS_INSTALL_DESC" />
+		<action name="datagrill.expandable" title="COM_DATAGRILL_ACCESS_EXPANDABLE" description="COM_DATAGRILL_ACCESS_EXPANDABLE_DESC" />
+		<action name="datagrill.show hide columns" title="COM_DATAGRILL_ACCESS_SHOWHIDE" description="COM_DATAGRILL_ACCESS_SHOWHIDE_DESC" />
+	</section>
+</access>

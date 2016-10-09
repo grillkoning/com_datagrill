@@ -1,0 +1,18 @@
+<?php
+
+define(DS, '/');
+
+ini_set('display_errors', "off");
+define('JPATH_BASE', $_SERVER['DOCUMENT_ROOT'] );
+require_once "xataface/public-api.php";
+require_once(JPATH_BASE.'/components/com_datagrill/helpers/datagrillhelper.php');
+ 
+$appId= htmlspecialchars($_GET["appId"]);
+$appPath = datagrillhelper::findmypath(htmlspecialchars($_GET["appPath"]));
+
+
+$grillbridge = datagrillhelper::getinstance();
+$conf=grillbridge::getconfig($appId);
+
+
+df_init($appPath.'/kickoff.php', "xataface",$conf)->display();

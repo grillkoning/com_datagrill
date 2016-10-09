@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<layout title="COM_DATAGRILL_DATAGRILL_VIEW_DEFAULT_TITLE">
+		<message>COM_DATAGRILL_DATAGRILL_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<fields
+			name="request"
+			addfieldpath="/administrator/components/com_datagrill/models/fields"
+			>
+		<fieldset name="request">
+			<field
+				name="id"
+				type="datagrill"
+				label="COM_DATAGRILL_DATAGRILL_FIELD_GREETING_LABEL"
+				description="COM_DATAGRILL_DATAGRILL_FIELD_GREETING_DESC"
+				>
+				</field>
+			<field
+				name="apppath"
+				type="hidden"
+				>
+				</field>
+			<field
+				name="appurl"
+				type="hidden"
+				>
+				</field>
+			</fieldset>
+
+	</fields>
+</metadata>
