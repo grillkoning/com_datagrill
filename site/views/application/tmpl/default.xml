@@ -3,14 +3,14 @@
 	<layout title="COM_DATAGRILL_DATAGRILL_VIEW_DEFAULT_TITLE">
 		<message>COM_DATAGRILL_DATAGRILL_VIEW_DEFAULT_DESC</message>
 	</layout>
-	<fields
-			name="request"
-			addfieldpath="/administrator/components/com_datagrill/models/fields"
-			>
-		<fieldset name="request">
+
+	<fields	name="request" >
+
+		<fieldset name="request"
+				addfieldpath="/administrator/components/com_datagrill/models/fields">
 			<field
 				name="id"
-				type="datagrill"
+				type="yourapp"
 				label="COM_DATAGRILL_DATAGRILL_FIELD_GREETING_LABEL"
 				description="COM_DATAGRILL_DATAGRILL_FIELD_GREETING_DESC"
 				>
@@ -26,6 +26,5 @@
 				>
 				</field>
 			</fieldset>
-
 	</fields>
 </metadata>
