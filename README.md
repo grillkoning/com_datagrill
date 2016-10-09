@@ -1,11 +1,25 @@
 WELCOME TO DATAGRILL; TO BUILD A MYSQL FRONTEND IN JOOMLA! WITHOUT ANY CODING
-(A Joomla! wrapper around the phenomenal Xataface)
 
 (C) Chris Rutten 2016
-License: GNU GPL 2.0
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 
 QUICKSTART GUIDE:
+
+This programm is a Joomla! wrapper around the phenomenal Xataface platform. To get started:
 
 (1) Install like any other Joomla! extension. For Help see the Joomla! documentation on:
 https://docs.joomla.org/Installing_an_extension
